@@ -41,6 +41,8 @@ connection.connect(function(err) {
           name: 'category',
           message: 'How many units would you like to buy?'
         }
+
+        // Function still needs to update table and validation
         ]).then(function(response) {
           var query = connection.query(
           "UPDATE products SET stock_quantity WHERE item_id  ?",
@@ -48,6 +50,8 @@ connection.connect(function(err) {
           name: response.name,
           category: response.category,
           },
+
+
           function(err, res) {
             console.log('Thank you for your purchase!');
           });
