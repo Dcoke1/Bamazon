@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Bamazon Store Front--Using Node & MySql",
+  "main": "BamazonCustomer.js",
+  "dependencies": {
+    "init": "^0.1.2",
+    "npm": "^5.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dcoke1/Bamazon.git"
+  },
+  "keywords": [
+    "Bamazon",
+    "Node",
+    "MySql",
+    "Store"
+  ],
+  "author": "Douglas J. Coke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dcoke1/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Dcoke1/Bamazon#readme"
+}
